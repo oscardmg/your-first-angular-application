@@ -1,0 +1,16 @@
+<app-my-component></app-my-component>
+
+<button
+  (click)="count = count +1">Click me</button>
+
+<h1>
+  Count: {{ count }}
+</h1>
+
+<img [src]="imageSource">
+
+<br>
+
+<button
+  (click)="enable = !enable">Disable input</button>
+<input type="text" [disabled]="enable">
